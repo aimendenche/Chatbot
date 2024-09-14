@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request, send_from_directory
-import openai
+
 
 app = Flask(__name__)
 openai.api_key = ""
