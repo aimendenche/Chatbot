@@ -2,7 +2,7 @@ from flask import Flask, render_template, request, send_from_directory
 
 
 app = Flask(__name__)
-openai.api_key = ""
+
 
 @app.route("/")
 def home():
