@@ -16,10 +16,11 @@
     <script src="/js/script.js" defer></script>
   </head>
   <body>
-  <video autoplay muted loop id="background-video">
+  <video autoplay muted loop playsinline id="background-video">
   <source src="{{ url_for('static', filename='video5.mp4') }}" type="video/mp4">
   Your browser does not support the video tag.
   </video>
+
     <!-- Welcome Message -->
     <div class="welcome-message">
       <h1>Welcome to Aimen's Chatbot!</h1>
