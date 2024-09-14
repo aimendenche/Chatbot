@@ -1,8 +1,3 @@
-
-# Initialiser la clé API
-openai.api_key = ""
-
-# Fonction pour interagir avec le chatbotv1
 def get_response(prompt):
     response = openai.ChatCompletion.create(
         model="text-embedding-3-small",
