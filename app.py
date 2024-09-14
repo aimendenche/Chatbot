@@ -21,7 +21,6 @@ def get_response():
     bot_response = response['choices'][0]['message']['content']
     return bot_response
 
-# Route pour servir les fichiers JavaScript
 @app.route('/js/<path:filename>')
 def serve_js(filename):
     return send_from_directory('js', filename)
