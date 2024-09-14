@@ -1,4 +1,3 @@
-import openai
 
 # Initialiser la clé API
 openai.api_key = ""
